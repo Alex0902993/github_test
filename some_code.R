@@ -20,3 +20,4 @@ summary(model)
 model <- lm(Sepal.Width ~ Sepal.Length * Species, data = iris)
 graph_model(model, y = Sepal.Width, x = Sepal.Length, lines = Species)
 
+usethis::use_github()
